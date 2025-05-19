@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+🚧 Civix – Local Civic Issue Reporting App
+Domain: Governance / Public Welfare
+Tagline: Empowering citizens, enabling better governance.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Civix is a full-stack web application designed to streamline the process of reporting, tracking, and resolving local civic issues such as potholes, broken streetlights, and uncollected garbage. It provides a bridge between citizens and municipal authorities, bringing accountability and transparency to local issue resolution.
 
-## Available Scripts
+🚨 Problem Addressed
+Local civic issues often go unnoticed or unresolved due to the lack of a structured, user-friendly reporting system. Civix solves this by enabling:
 
-In the project directory, you can run:
+Citizens to report problems easily with images and geolocation.
 
-### `npm start`
+Transparent status tracking of reported issues.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Community-driven prioritization via upvotes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A centralized admin dashboard for city workers to manage and resolve issues efficiently.
 
-### `npm test`
+✨ Features
+🧍 Citizens
+📍 Report Issues: Submit problems with description, live location (via map), and image.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔁 Track Status: View status transitions from Open → In Progress → Resolved.
 
-### `npm run build`
+🔼 Upvote Issues: Support others' reports to highlight common concerns.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧑‍💼 Admins (City Workers)
+📊 Dashboard Access: View, filter, and manage all reported issues.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔧 Status Management: Update issue progress and mark resolutions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧑‍🤝‍🧑 Role-Based Access: Admin vs Citizen privileges secured via authentication.
 
-### `npm run eject`
+🛠️ Tech Stack
+Frontend:
+React.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tailwind CSS – for modern and responsive UI
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Leaflet.js – interactive maps for location tagging
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend:
+Node.js + Express.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+PostgreSQL – relational DB for storing reports and user data
 
-## Learn More
+Additional Integrations:
+Cloudinary – for image uploads and hosting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Role-Based Authentication – Secure login for Citizens and Admins
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📷 Screenshots
+Citizen Interface	Admin Dashboard
 
-### Code Splitting
+(Replace image links with actual screenshots in your repo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🚀 Getting Started
+Prerequisites
+Node.js and npm
 
-### Analyzing the Bundle Size
+PostgreSQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cloudinary account (for image upload)
 
-### Making a Progressive Web App
+.env file for environment variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Clone and Run
+bash
+Copy
+Edit
+git clone https://github.com/your-username/civix-app.git
+cd civix-app
 
-### Advanced Configuration
+# Frontend
+cd client
+npm install
+npm run dev
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Backend
+cd ../server
+npm install
+npm run start
+Environment Variables
+In /server/.env:
 
-### Deployment
+ini
+Copy
+Edit
+DATABASE_URL=your_postgres_connection_string
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+JWT_SECRET=your_jwt_secret
+📌 Roadmap / Future Enhancements
+🔔 Push notifications for issue updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+📈 Analytics for civic issue trends
 
-### `npm run build` fails to minify
+🌐 Multilingual support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📱 Mobile app (React Native)
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
+
+📄 License
+MIT License. See LICENSE file for more details.
+
