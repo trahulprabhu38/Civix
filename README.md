@@ -48,10 +48,6 @@ Cloudinary – for image uploads and hosting
 
 Role-Based Authentication – Secure login for Citizens and Admins
 
-📷 Screenshots
-Citizen Interface	Admin Dashboard
-
-(Replace image links with actual screenshots in your repo)
 
 🚀 Getting Started
 Prerequisites
@@ -59,37 +55,13 @@ Node.js and npm
 
 PostgreSQL
 
-Cloudinary account (for image upload)
-
-.env file for environment variables
-
 Clone and Run
 bash
 Copy
 Edit
-git clone https://github.com/your-username/civix-app.git
+git clone https://github.com/Harshs16/civix.git
 cd civix-app
 
-# Frontend
-cd client
-npm install
-npm run dev
-
-# Backend
-cd ../server
-npm install
-npm run start
-Environment Variables
-In /server/.env:
-
-ini
-Copy
-Edit
-DATABASE_URL=your_postgres_connection_string
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
-CLOUDINARY_API_SECRET=your_api_secret
-JWT_SECRET=your_jwt_secret
 📌 Roadmap / Future Enhancements
 🔔 Push notifications for issue updates
 
