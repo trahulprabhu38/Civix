@@ -2,6 +2,7 @@
 Domain: Governance / Public Welfare
 Tagline: Empowering citizens, enabling better governance.
 
+
 Civix is a full-stack web application designed to streamline the process of reporting, tracking, and resolving local civic issues such as potholes, broken streetlights, and uncollected garbage. It provides a bridge between citizens and municipal authorities, bringing accountability and transparency to local issue resolution.
 
 🚨 Problem Addressed
