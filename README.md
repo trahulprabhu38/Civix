@@ -61,6 +61,7 @@ bash
 Copy
 Edit
 git clone https://github.com/Harshs16/civix.git
+
 cd civix-app
 
 📌 Roadmap / Future Enhancements
